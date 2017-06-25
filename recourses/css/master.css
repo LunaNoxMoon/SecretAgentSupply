@@ -1,3 +1,17 @@
-p{
-  color: pink;
+body{
+  background-color: black;
+  color: white;
+}
+
+header span{
+  text-transform: uppercase;
+}
+
+.moto{
+  background-image: url(https://raw.githubusercontent.com/LunaNoxMoon/SecretAgentSupply/master/recourses/images/moto.jpeg);
+  text-transform: uppercase;
+}
+
+.moto-text{
+  background-color black;
 }
