@@ -1,17 +1,53 @@
+/*general*/
+html{
+    font-size: 18px;
+    font-family: Helvetica;
+    align-content: center;
+}
+
 body{
   background-color: black;
   color: white;
 }
 
-header span{
-  text-transform: uppercase;
+.container{
+  width: 960px;
 }
 
+/*header*/
+header span{
+  text-transform: uppercase;
+  margin: 0.66rem;
+}
+
+header img{
+  height: 1.5rem;
+  padding-left: 0.5rem;
+  padding-right: 1rem;
+}
+
+/*moto*/
 .moto{
   background-image: url(https://raw.githubusercontent.com/LunaNoxMoon/SecretAgentSupply/master/recourses/images/moto.jpeg);
   text-transform: uppercase;
+  height: 25rem;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .moto-text{
-  background-color black;
+  background-color: black;
+  margin-top: 9rem;
 }
+
+/*categories*/
+
+
+
+/*specials*/
+
+
+/*info*/
+
+
+/*footer*/
