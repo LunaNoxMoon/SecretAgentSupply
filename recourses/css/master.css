@@ -76,6 +76,10 @@ nav ul{
   list-style: none;
 }
 
+.mobile-nav{
+  display: none;
+}
+
 /*specials*/
 .specials{
   display: flex;
@@ -134,4 +138,76 @@ footer{
   color: white;
   padding: 5rem 0;
   text-align: left;
+}
+
+/*resizing*/
+@media only screen and (max-width: 1024px){
+  /*tablet portrait*/
+  html{
+    font-size: 16px;
+  }
+
+  nav ul{
+    display: none;
+  }
+
+  .mobile-nav{
+    display: flex;
+    justify-content: center;
+  }
+
+  .item{
+    width: 47%;
+  }
+
+  .glasses{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 470px){
+  /*mobile*/
+  .moto{
+    height: 15rem;
+  }
+
+  .moto-text{
+    width: 100%;
+    top: 10rem;
+    padding: 1rem 2rem;
+  }
+
+  .moto-text h4{
+    font-size: 0.77rem;
+  }
+
+  .moto-text h1{
+    font-size: 1rem;
+  }
+
+  .specials{
+    flex-wrap: wrap;
+  }
+
+  .item{
+    width: 90%;
+    margin: auto;
+  }
+
+  .glasses, .watch{
+    display: none;
+  }
+
+  .store-info{
+    flex-wrap: wrap;
+  }
+
+  .info{
+    width: 90%;
+    margin: 0.5rem auto;
+  }
+
+  footer {
+    text-align: center;
+  }
 }
